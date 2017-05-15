@@ -51,26 +51,26 @@
 						<!-- Demo -->
 							<article id="demo">
 								<h2 class="major">Request A Demo</h2>
-								<form method="post" action="#">
+								<form method="post" action="assets/php/send_mail.php">
 									<div class="field half first">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="demo_name" />
+										<input type="text" name="name" id="demo_name" required/>
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="demo_email" />
+										<input type="text" name="email" id="demo_email" required/>
 									</div>
 									<div class="field half first">
 										<label for="name">Company</label>
 										<input type="text" name="Company" id="demo_company" />
 									</div>
 									<div class="field half">
-										<label for="email">Phone Number</label>
+										<label for="phone">Phone Number</label>
 										<input type="text" name="phone" id="demo_phone" />
 									</div>
 									<div class="field">
 										<label for="email">How Did You Hear About Us?</label>
-										<input type="text" name="refer" id="demo_refer" />
+										<input type="text" name="refer" id="demo_refer" required/>
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
@@ -86,21 +86,21 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact Us</h2>
-								<form method="post" action="#">
+								<form method="post" action="assets/php/send_mail.php">
 									<div class="field half first">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required/>
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="text" name="email" id="email" required/>
 									</div>
 									<div class="field half first">
 										<label for="name">Company</label>
 										<input type="text" name="Company" id="Company" />
 									</div>
 									<div class="field half">
-										<label for="email">Phone Number</label>
+										<label for="phone">Phone Number</label>
 										<input type="text" name="phone" id="phone" />
 									</div>
 									<div class="field">
@@ -120,11 +120,18 @@
 								</ul>
 								<span id="contact_address" class="address">
 									<strong>Ally Shield</strong>
-									<br>1801 Station Village Street #201
-									<br>San Diego, CA 92801
-									<br>Toll Free: <a href="tel://1-800-555-5555">800-555-5555</a>
+									<br>6929 North Hayden Rd. C4-307
+									<br>Scottsdale, AZ 85250
+									<br><a href="tel://1-949-648-2173">949-648-2173</a>
 								</span>
 							</article>
+
+						<!-- Success Contact -->
+						<article id="contact_success">
+							<h2 class="major">Thank You</h2>
+							<p>We have received your request and will be in touch with you very soon.</p>
+						</article>
+
 
 						<!-- Elements -->
 							<article id="elements">
